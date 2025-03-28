@@ -37,7 +37,8 @@ CREATE TABLE campaign (
     launch_date TIMESTAMP NOT NULL,
     end_date TIMESTAMP NOT NULL,
     category_id VARCHAR(10) NOT NULL,
-    subcategory_id VARCHAR(10) NOT NULL
+    subcategory_id VARCHAR(10) NOT NULL,
+	PRIMARY KEY (cf_id)
    
 );
 

@@ -45,6 +45,11 @@ This project processes and transforms crowdfunding campaign and contact data usi
     - Parses JSON strings into structured format
     - Extracts first/last names
     - Provides two methods: json.loads() and regex
+      
+- ✅ Crowdfunding Database
+    - Uses cleaned CSV files to build a PostgreSQL database for analysis and querying
+    - An Entity Relationship Diagram (ERD) was created using QuickDBD to visualize the table relationships
+    - SQL schema is saved in: crowdfunding_db_schema.sql
 
 ---
 
@@ -67,6 +72,8 @@ This project processes and transforms crowdfunding campaign and contact data usi
 - Regex  
 - Jupyter Notebook or Visual Studio Code
 - ChatGPT for ReadMe formatting assisstance
+- PostGreSQL
+- QuickDBD
 
 ---
 
